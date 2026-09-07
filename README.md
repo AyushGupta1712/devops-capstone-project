@@ -1,4 +1,25 @@
-# DevOps Capstone Template
+# Devops-Capstone-Project
+
+## Overview
+This repository contains the capstone project for the IBM DevOps and Software Engineering / Full Stack Software Developer Professional Certificate. It brings together the knowledge and hands-on skills gained across all 14 courses in the program — including Agile methodology, GitHub-based collaboration, Python and Flask development, TDD/BDD, CI/CD, containerization, and cloud-native deployment.
+
+The project simulates a real-world DevOps workflow: planning, developing, testing, and deploying a **customer accounts microservice** for an e-commerce platform.
+
+## Project Description
+The goal of this capstone is to build a RESTful microservice that manages customer account data (name, address, and related information) for an e-commerce system. The service supports full CRUD operations — Create, Read, Update, Delete, and List — and is built following Agile Scrum practices, test-driven development, and modern DevOps principles.
+
+Key phases of the project include:
+- **Agile Planning** — Creating a GitHub Kanban board, writing user stories, and building a sprint plan
+- **Development** — Implementing REST API endpoints using Python and Flask, following TDD practices
+- **Continuous Integration** — Automated testing and code quality checks via GitHub Actions
+- **Continuous Delivery** — Containerizing the service with Docker and deploying it to a Kubernetes/OpenShift cluster
+
+## Tech Stack
+- Python / Flask
+- PostgreSQL
+- Docker & Kubernetes
+- GitHub Actions (CI/CD)
+- GitHub Projects (Agile planning & Kanban board)
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
