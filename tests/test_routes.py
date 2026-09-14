@@ -21,6 +21,7 @@ DATABASE_URI = os.getenv(
 BASE_URL = "/accounts"
 HTTPS_ENVIRON = {'wsgi.url_scheme': 'https'}
 
+
 ######################################################################
 #  T E S T   C A S E S
 ######################################################################
@@ -102,7 +103,7 @@ class TestAccountService(TestCase):
             'Referrer-Policy': 'strict-origin-when-cross-origin'
         }
         for key, value in headers.items():
-            self.assertEqual(response.headers.get(key), value)    
+            self.assertEqual(response.headers.get(key), value)
 
     def test_cors_security(self):
         """It should return a CORS header"""
