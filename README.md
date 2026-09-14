@@ -1,5 +1,7 @@
 # Devops-Capstone-Project
 
+![Build Status](https://github.com/AyushGupta1712/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
 ## Overview
 This repository contains the capstone project for the IBM DevOps and Software Engineering / Full Stack Software Developer Professional Certificate. It brings together the knowledge and hands-on skills gained across all 14 courses in the program — including Agile methodology, GitHub-based collaboration, Python and Flask development, TDD/BDD, CI/CD, containerization, and cloud-native deployment.
 
